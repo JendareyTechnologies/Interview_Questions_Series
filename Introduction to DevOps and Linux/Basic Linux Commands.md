@@ -41,9 +41,12 @@
   * Answer 10: Certainly! To display disk space usage in a human-readable format, I would run the command: df -h. This would show information about available, used, and total disk space on all mounted filesystems.
 
 - Question 11: How would you use the du command to estimate the file space usage of a directory?
+  
+  * Answer 11: To estimate the file space usage of a directory, I would use the du -h command followed by the directory path. For instance, du -h /path/to/directory would display a summary of the space used by that directory and its subdirectories in a human-readable format.
 
-  * Answer 11: To estimate the file space usage of a directory, I would use the `du -h
+- Question 12: Explain the purpose of SSH keys and how they work.
 
+  * Answer 12: SSH (Secure Shell) keys are used for secure authentication and communication between two computers, often for remote access. They come in pairs: a public key and a private key. The public key is placed on the remote server, while the private key is kept by the user. When the user attempts to log in, the server uses the public key to encrypt a message that can only be decrypted using the private key. This provides a highly secure way of logging into a remote system without transmitting passwords over the network.
 
 
 

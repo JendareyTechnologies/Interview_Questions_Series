@@ -2,15 +2,19 @@
 
 # Question 1: Could you briefly explain what Linux is and its significance in the realm of computing technologies?
 
-  * Answer 1: Linux is an open-source operating system kernel that serves as the foundation for various operating systems, known as "Linux distributions." Developed by Linus Torvalds in 1991, Linux powers a wide range of devices, from servers to smartphones. Its flexibility, customization, and versatility make it a popular choice for various applications.
+  * Answer 1: Linux is an open-source operating system kernel that serves as the foundation for various operating systems, known as "Linux distributions."
+  * Developed by Linus Torvalds in 1991, Linux powers a wide range of devices, from servers to smartphones.
+  * Its flexibility, customization, and versatility make it a popular choice for various applications.
 
 # Question 2: Can you describe some notable Linux distributions and their specific functionalities or applications?
 
-  * Answer 2: Certainly. Linux distributions like Redhat, CentOS, Ubuntu, and Fedora cater to different preferences and needs. For instance, Redhat is known for enterprise-level support, CentOS is a free version of Redhat, Ubuntu offers a user-friendly interface, and Fedora focuses on providing cutting-edge features.
+  * Answer 2: Certainly. Linux distributions like Redhat, CentOS, Ubuntu, and Fedora cater to different preferences and needs.
+  * For instance, Redhat is known for enterprise-level support, CentOS is a free version of Redhat, Ubuntu offers a user-friendly interface, and Fedora focuses on providing cutting-edge features.
 
 # Question 3: What are the main directories in the Linux file hierarchy? Can you briefly explain their purposes?
 
-  * Answer 3: The main directories in the Linux file hierarchy include /bin (essential binaries), /etc (configuration files), /home (user home directories), /lib (shared libraries), /tmp (temporary files), and /usr (user programs and data). Each directory serves a specific purpose in organizing system files.
+  * Answer 3: The main directories in the Linux file hierarchy include /bin (essential binaries), /etc (configuration files), /home (user home directories), /lib (shared libraries), /tmp (temporary files), and /usr (user programs and data).
+  * Each directory serves a specific purpose in organizing system files.
 
 # Question 4: How would you create a directory structure like "developers/github/maven/SonarQube/nexus/tomcat" using the command line?
 
@@ -19,7 +23,9 @@
   * mkdir -pv developers/github/maven/SonarQube/nexus/tomcat
 # Question 5: What is the purpose of the "umask" command, and how does it affect file and directory permissions?
 
-  * Answer 5: The "umask" command is used to set default permissions for newly created files and directories. It subtracts the umask value from the default permissions to determine the actual permissions. For instance, a umask of 022 results in default file permissions of 644 (rw-r--r--).
+  * Answer 5: The "umask" command is used to set default permissions for newly created files and directories.
+  * It subtracts the umask value from the default permissions to determine the actual permissions.
+  * For instance, a umask of 022 results in default file permissions of 644 (rw-r--r--).
 
 # Question 6: Could you provide an example of how you would use the "grep" command to search for a specific pattern within a file?
 
@@ -71,7 +77,9 @@
 
 # Question 12: Let's say you're responsible for monitoring system memory usage over time. What command would you use, and how would you interpret its output?
 
-  * Answer 12: I would use the "top" command to monitor system memory usage in real-time. Its output displays information about processes, memory usage, CPU usage, and more. The "top" command provides an overview of the system's performance, updating at regular intervals.
+  * Answer 12: I would use the "top" command to monitor system memory usage in real-time.
+  * Its output displays information about processes, memory usage, CPU usage, and more.
+  * The "top" command provides an overview of the system's performance, updating at regular intervals.
 
 
 
